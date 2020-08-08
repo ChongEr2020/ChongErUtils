@@ -45,10 +45,15 @@ public class PicToOCR {
 		instance.setDatapath(lagnguagePath);// 设置训练库的位置
 		instance.setLanguage(ocr);// chi_sim ：简体中文， eng 根据需求选择语言库
 
-		// 获取截图
-		BufferedImage image = new Robot().createScreenCapture(new Rectangle(X, Y, W, H));
+		//获取截图
+		BufferedImage image = 
+				new Robot().createScreenCapture(
+						new Rectangle(X, Y, W, H));
 
 		return instance.doOCR(image);
+	}
+	public void pic() {
+		System.out.println("ceshi");
 	}
 
 }
