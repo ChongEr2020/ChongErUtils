@@ -52,8 +52,4 @@ public class PicToOCR {
 
 		return instance.doOCR(image);
 	}
-	public void pic() {
-		System.out.println("ceshi");
-	}
-
 }
