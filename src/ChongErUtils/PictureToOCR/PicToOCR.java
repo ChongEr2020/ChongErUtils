@@ -20,7 +20,7 @@ public class PicToOCR {
 
 	/**
 	 * 
-	 * @param ocr           chi_sim ：简体中文， eng 根据需求选择语言库
+	 * @param ocr           chi_sim ：简体中文， eng：英文  根据需求选择语言库
 	 * @param lagnguagePath 训练库的位置
 	 */
 	public PicToOCR(String ocr, String lagnguagePath) {
